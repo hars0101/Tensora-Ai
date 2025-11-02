@@ -1,1 +1,1 @@
-# Tensora-Ai
+# Tensora Ai
