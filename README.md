@@ -98,7 +98,7 @@ No explicit mode switching. It just knows.
 ### 🧬 Custom Fine-tuned LLM
 - Fine-tuned on **Qwen 2.5 32B** (upgraded from LLaMA)
 - Custom training using **LoRA/PEFT** for domain-specific reasoning
-- Deployed on **Modal.com A10G GPU** for production-grade inference
+- Deployed on *******.com A10G GPU** for production-grade inference
 - Optimized for **intent parsing** and **tool selection accuracy**
 
 ### 🔒 Confirmation-First Execution
@@ -125,7 +125,7 @@ Before taking any real-world action, Tensora AI:
                       ▼
 ┌─────────────────────────────────────────────────┐
 │         Tensora AI Intent Parser                │
-│    (Fine-tuned Qwen 2.5 32B via Modal GPU)      │
+│    (Fine-tuned Qwen 2.5 32B via ***** GPU)      │
 │                                                 │
 │  Chat Intent? ──► Conversational Response       │
 │  Tool Intent? ──► Multi-Agent Orchestration     │
@@ -173,7 +173,7 @@ Before taking any real-world action, Tensora AI:
 | Backend | Python + FastAPI |
 | Proxy Layer | Custom proxy.py |
 | Auth & Database | Firebase + Firestore |
-| Model Deployment | Modal.com (A10G GPU) |
+| Model Deployment | *****.com (A10G GPU) |
 | App Deployment | Docker + Vercel |
 | Speech Input | Google Cloud Speech-to-Text |
 
@@ -226,8 +226,8 @@ FIREBASE_PROJECT_ID=your_project_id
 # Google Cloud (for Speech-to-Text)
 GOOGLE_APPLICATION_CREDENTIALS=server/gcp_key.json
 
-# Modal (for custom LLM - optional)
-MODAL_ENDPOINT=https://your-modal-endpoint.modal.run
+# ***** (for custom LLM - optional)
+*****_ENDPOINT=https://your-*****-endpoint.*****.run
 ```
 
 ### 4. Set Up Zapier MCP
@@ -289,7 +289,7 @@ Tensora-Ai/
 ├── ChatMessage.jsx               # Message rendering
 ├── LandingPage.jsx               # Landing page
 ├── MainApp.jsx                   # Core app layout
-├── SettingsModal.jsx             # Settings panel
+├── Settings*****.jsx             # Settings panel
 ├── Welcome.jsx                   # Welcome screen
 ├── Dockerfile                    # Docker configuration
 ├── start_backend.py              # Backend entry point
@@ -400,7 +400,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 **Imadabathuni Harsha Venkat** — AIML Engineer & Web Developer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-iharsha.space-blue)](http://iharsha.space/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-iharsha.online-blue)](http://iharsha.online/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-harsha0101-0077B5)](https://www.linkedin.com/in/harsha0101)
 [![Email](https://img.shields.io/badge/Email-imadabathuniharsha%40gmail.com-red)](mailto:imadabathuniharsha@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-hars0101-black)](https://github.com/hars0101)
