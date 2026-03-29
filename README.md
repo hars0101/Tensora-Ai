@@ -98,7 +98,7 @@ No explicit mode switching. It just knows.
 ### 🧬 Custom Fine-tuned LLM
 - Fine-tuned on **Qwen 2.5 32B** (upgraded from LLaMA)
 - Custom training using **LoRA/PEFT** for domain-specific reasoning
-- Deployed on *******.com A10G GPU** for production-grade inference
+- Deployed on Modal.com A10G GPU** for production-grade inference
 - Optimized for **intent parsing** and **tool selection accuracy**
 
 ### 🔒 Confirmation-First Execution
@@ -125,7 +125,7 @@ Before taking any real-world action, Tensora AI:
                       ▼
 ┌─────────────────────────────────────────────────┐
 │         Tensora AI Intent Parser                │
-│    (Fine-tuned Qwen 2.5 32B via ***** GPU)      │
+│    (Fine-tuned Qwen 2.5 32B via Modal GPU)      │
 │                                                 │
 │  Chat Intent? ──► Conversational Response       │
 │  Tool Intent? ──► Multi-Agent Orchestration     │
@@ -173,7 +173,7 @@ Before taking any real-world action, Tensora AI:
 | Backend | Python + FastAPI |
 | Proxy Layer | Custom proxy.py |
 | Auth & Database | Firebase + Firestore |
-| Model Deployment | *****.com (A10G GPU) |
+| Model Deployment | modal.com (A10G GPU) |
 | App Deployment | Docker + Vercel |
 | Speech Input | Google Cloud Speech-to-Text |
 
@@ -226,8 +226,8 @@ FIREBASE_PROJECT_ID=your_project_id
 # Google Cloud (for Speech-to-Text)
 GOOGLE_APPLICATION_CREDENTIALS=server/gcp_key.json
 
-# ***** (for custom LLM - optional)
-*****_ENDPOINT=https://your-*****-endpoint.*****.run
+# modal (for custom LLM - optional)
+modal_ENDPOINT=https://your-modal-endpoint.modal.run
 ```
 
 ### 4. Set Up Zapier MCP
@@ -289,7 +289,7 @@ Tensora-Ai/
 ├── ChatMessage.jsx               # Message rendering
 ├── LandingPage.jsx               # Landing page
 ├── MainApp.jsx                   # Core app layout
-├── Settings*****.jsx             # Settings panel
+├── Settingsmodal.jsx             # Settings panel
 ├── Welcome.jsx                   # Welcome screen
 ├── Dockerfile                    # Docker configuration
 ├── start_backend.py              # Backend entry point
